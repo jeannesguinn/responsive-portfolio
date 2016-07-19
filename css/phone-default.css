@@ -16,33 +16,67 @@
 
   body{
     font-size: 16px;
+    font-family: Verdana, Geneva, sans-serif;
   }
 
 /* ------- CONTAINER ---------*/
 
   #container{
-    background-color: #fff; /* becomes the nav background color*/
+    background-color: grey; /* becomes the nav background color*/
     min-width: 320px;
     max-width: 1140px;
   }
 
 /* ------- HEADER ---------*/
 
-  header{}
-  header h1{}
-  header h2{}
+  header{
+    background-color: #111;
+    border-bottom: solid mediumTurquoise 5px;
+  }
+  header img{
+    float: left;
+    padding: .5em 2%;
+  }
+  header h1{
+    font-size: 1.8em;
+    padding-top: .2em;
+    color: salmon;
+  }
+  header h2{
+    font-size: 1.1em;
+    padding: .3em 0 .6em 0;
+    color: mediumTurquoise;
+  }
 
 /* ------- NAVIGATION ---------*/
 
   nav{}
-  nav ul li{}
-  nav ul li a{
+  nav ul li{
+    list-style: none;
+  }
+  nav ul li a {
     display: block;
-    background-color: #ccc;
+    text-align: center;
+    padding: .7em;
+    background-color: cadetBlue;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: .5em;
+    font-size: .85em;
+
   }
-  nav ul li a:hover{
+  nav ul li.active a{
+    background-color: salmon;
+    color: white;
+  }
+  nav ul li a:hover {
     background-color: #999;
+    color: black;
   }
+
+
 
 
 /* ------- CONTENT ---------*/
@@ -58,3 +92,9 @@
     text-align: center;
     padding: 1em;
   }
+
+  /* ------- OTHER ---------*/
+
+    .keepOpen{
+      clear: both;
+    }

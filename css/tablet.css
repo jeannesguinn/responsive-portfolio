@@ -10,17 +10,29 @@
 
   /* ------- HEADER ---------*/
 
-    header{}
+    header h1{
+        padding-top: 1.1em;
+    }
 
   /* ------- NAVIGATION ---------*/
 
-    nav ul li{
-
+    nav{
+        background-color: cadetBlue;
+    }
+    nav ul{
+        margin: 0; /* pull nav up right underneath our header */
     }
 
     nav ul li a{
-        
+        float: left; /* makes our nav items stack side by side */
+        border: none; /* turn off our border */
+        border-radius: 0px; /* turn off our border radius */
+        margin: 0;
+
+
     }
+
+
 
   /* ------- CONTENT ---------*/
 
