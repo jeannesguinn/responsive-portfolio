@@ -1,0 +1,21 @@
+@media only screen and (min-width: 1141px){
+  /* ------- BODY ---------*/
+
+    body{}
+
+  /* ------- CONTAINER ---------*/
+
+    #container{}
+
+  /* ------- HEADER ---------*/
+
+    header{}
+
+  /* ------- NAVIGATION ---------*/
+
+    nav{}
+
+  /* ------- CONTENT ---------*/
+
+  /* ------- FOOTER ---------*/
+}
