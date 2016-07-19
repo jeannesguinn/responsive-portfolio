@@ -14,7 +14,13 @@
 
   /* ------- NAVIGATION ---------*/
 
-    nav{}
+    nav ul li{
+
+    }
+
+    nav ul li a{
+        
+    }
 
   /* ------- CONTENT ---------*/
 
