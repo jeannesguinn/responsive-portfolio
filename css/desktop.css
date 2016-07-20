@@ -1,17 +1,22 @@
-@media only screen and (min-width: 1141px){
+@media only screen and (min-width: 961px){
   /* ------- BODY ---------*/
 
-    body{}
+    body{
+
+    }
 
   /* ------- WRAPPER ---------*/
 
-    #wrapper{}
+    #wrapper{
+
+    }
 
   /* ------- CONTAINER ---------*/
 
     #container{
         margin: 2em auto;
         border: 1px solid #888;
+
     }
 
   /* ------- HEADER ---------*/
@@ -23,6 +28,12 @@
     nav{}
 
   /* ------- CONTENT ---------*/
+
+  /* ------- IMAGES ---------*/
+
+  figure.w33{
+    width: 33%;
+  }
 
   /* ------- FOOTER ---------*/
 }

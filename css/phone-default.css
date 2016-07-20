@@ -17,6 +17,8 @@
   body{
     font-size: 16px;
     font-family: Verdana, Geneva, sans-serif;
+    background-image: url(../gradientBG.png);
+    background-repeat: repeat-x;
   }
 
 /* ------- CONTAINER ---------*/
@@ -24,7 +26,7 @@
   #container{
     background-color: grey; /* becomes the nav background color*/
     min-width: 320px;
-    max-width: 1140px;
+    max-width: 960px;
   }
 
 /* ------- HEADER ---------*/
@@ -77,13 +79,27 @@
   }
 
 
-
-
 /* ------- CONTENT ---------*/
 
   #content{
     min-height: 5em;
   }
+
+/* ------- IMAGES ---------*/
+
+  figure{
+      margin: 0 auto;
+  }
+  figure.w100{
+    width: 100%;
+  }
+  figure.w33{
+    width: 100%;
+  }
+  figure img{
+    width: 100%;
+  }
+
 
 /* ------- FOOTER ---------*/
 
@@ -91,6 +107,10 @@
     clear: both;
     text-align: center;
     padding: 1em;
+    background-color: #111;
+    color: white;
+    font-size: .6em;
+
   }
 
   /* ------- OTHER ---------*/
