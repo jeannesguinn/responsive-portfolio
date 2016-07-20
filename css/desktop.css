@@ -29,10 +29,17 @@
 
   /* ------- CONTENT ---------*/
 
+    #content div.row article{
+      width: 46%;
+      float:left;
+      height: 200px;
+      overflow: auto;
+    }
+
   /* ------- IMAGES ---------*/
 
   figure.w33{
-    width: 33%;
+    width: 29%;
   }
 
   /* ------- FOOTER ---------*/

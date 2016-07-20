@@ -36,6 +36,8 @@
     border-bottom: solid mediumTurquoise 5px;
   }
   header img{
+    width: 15%;
+    height: 15%;
     float: left;
     padding: .5em 2%;
   }
@@ -54,6 +56,7 @@
 
   nav{}
   nav ul li{
+    width: 90%;
     list-style: none;
   }
   nav ul li a {
@@ -83,7 +86,54 @@
 
   #content{
     min-height: 5em;
+    background-color: white;
   }
+  #content h1{
+    margin: 1em 2% 0 2%;
+    font-size: 1.5em;
+    color: #b8005c;
+  }
+  #content p{
+    padding-bottom: .5em;
+  }
+  #content article{
+    margin: 0 2%;
+  }
+  #content article.news, #content article.tweet{
+    background-color: #ddd;
+    margin-top: .5em;
+    margin-bottom: .5em;
+  }
+  article.news h2, article.tweet h2{
+    color: #fff;
+    font-size: .8em;
+    padding: .5em;
+  }
+  article.news h2{
+    background-color: salmon;
+  }
+  article.tweet h2{
+    background-color: mediumTurquoise;
+  }
+  article.news h3, article.tweet h3{
+    font-size: 1em;
+    padding: .5em;
+  }
+  article.news h3{
+    color: salmon;
+  }
+  article.tweet h3{
+    color: mediumTurquoise;
+  }
+  article.news p, article.tweet p{
+    color: #666;
+    font-size: .8em;
+    padding-left: 1%;
+    padding-right: 1%;
+    line-height: 120%;
+  }
+
+
 
 /* ------- IMAGES ---------*/
 
@@ -94,10 +144,19 @@
     width: 100%;
   }
   figure.w33{
-    width: 100%;
+    width: 96%;
+    border: 1px solid #999;
+    margin: .3em 0 .3em 2%;
   }
   figure img{
     width: 100%;
+  }
+
+  #content figcaption{
+    text-align: center;
+    font-size: .6em;
+    color: #777;
+    padding: .3em;
   }
 
 
